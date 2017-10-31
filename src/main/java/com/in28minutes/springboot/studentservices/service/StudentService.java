@@ -38,11 +38,9 @@ public class StudentService {
 
 	public List<Course> retrieveCourses(String studentId) {
 		Student student = retrieveStudent(studentId);
-
 		if (student == null) {
 			return null;
 		}
-
 		return student.getCourses();
 	}
 }
