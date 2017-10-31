@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.in28minutes.springboot.studentservices.model.Course;
+import com.in28minutes.springboot.studentservices.service.StudentService;
 
 @RestController
 public class StudentController {
